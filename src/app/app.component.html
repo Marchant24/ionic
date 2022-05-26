@@ -1,0 +1,19 @@
+<ion-app>
+  <ion-menu side="start" menuId="first" contentId="main">
+    <ion-header>
+      <ion-toolbar color="primary">
+        <ion-title>MOVILIDAD</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+      <ion-list>
+        <ion-item [routerLink]="['/about']" routerLinkActive="router-link-active" >Acerca de Nosotros</ion-item>
+        <ion-item [routerLink]="['/gobierno']" routerLinkActive="router-link-active" >Gobierno</ion-item>
+        <ion-item [routerLink]="['/salud']" routerLinkActive="router-link-active" >Salud</ion-item>
+        <ion-item [routerLink]="['/educacion']" routerLinkActive="router-link-active" >Educacion</ion-item>
+        <ion-item [routerLink]="['/routePath']" routerLinkActive="router-link-active" >Salas de Lectura</ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+  <ion-router-outlet id="main" ></ion-router-outlet>
+</ion-app>

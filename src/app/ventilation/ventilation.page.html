@@ -1,0 +1,63 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-avatar slot="end">
+      <img src="/assets/ventilacion.png">
+    </ion-avatar>
+    <ion-title slot="start">BOLETOS</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+
+<ion-content>
+  <ion-list>
+    <ion-list>
+      <ion-radio-group name="auto" value="NORMAL">
+        <ion-list-header>
+          <ion-label color="primary">TIPO DE BOLETOS</ion-label>
+        </ion-list-header>
+        <ion-item>
+          <ion-avatar slot="start"> 
+            <img src="/assets/student.png">
+          </ion-avatar>
+          <ion-label>ESTUDIANTE</ion-label>
+          <p>$4.50</p>
+          <ion-radio value="ESTUDIANTE"></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-avatar slot="start">
+            <img src="/assets/tercera.png">
+          </ion-avatar>
+          <ion-label>TERCERA EDAD</ion-label>
+          <p>$4.50</p>
+          <ion-radio value="TERCERA EDAD/ DISCAPASITADOS"></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-avatar slot="start">
+            <img src="/assets/normal.jpg">
+          </ion-avatar>
+          <ion-label>NORMAL</ion-label>
+          <p>$9.50</p>
+          <ion-radio value="Cold"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </ion-list>
+  </ion-list>
+  <ion-item href="https://www.jotform.com/es/form-templates/envio-de-voucher-de-pago-a-colaboradores">
+    <ion-label>
+      PAGAR
+    </ion-label>
+  </ion-item>
+  <ion-item href="https://www.jotform.com/es/form-templates/envio-de-voucher-de-pago-a-colaboradores">
+    <ion-thumbnail slot="start">
+      <img src= "https://www.heraldo.mx/wp-content/uploads/2019/10/TARJETAS-DE-DESCUETNO-CAMION-ESTUDIANTES-YOVOY-696x522.jpg">
+    </ion-thumbnail>
+    <ion-label>
+      <h3>YO VOY</h3>
+      <p>Aguascalientes</p>
+    </ion-label>
+    <ion-icon name="card-sharp" slot="end"></ion-icon>
+  </ion-item>

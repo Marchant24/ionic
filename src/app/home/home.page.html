@@ -1,0 +1,101 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button autoHide="false"></ion-menu-button>
+  
+    </ion-buttons>
+    <ion-avatar  slot="end">
+ 
+     </ion-avatar>
+     <ion-avatar  slot="">
+      <img src="/assets/iot.png">
+     </ion-avatar>
+    <ion-title color = blue>
+ IOT
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <!-- List of Text Items -->
+<ion-list>
+  <ion-item detail routerLink="/ilumination">
+    <ion-chip>
+    <ion-label color="Success" >Modelos de Monitoreo</ion-label>
+    <ion-icon name="logo-rss" color="blue"></ion-icon>
+  </ion-chip>
+
+  </ion-item>
+  <ion-item detail routerLink="/segurity">
+    <ion-chip>
+    <ion-label color="Success" >Sensores Inteligentes </ion-label>
+    <ion-icon name="logo-reddit" color="blue"></ion-icon>
+  </ion-chip>
+
+  </ion-item>
+  <ion-item detail routerLink="/registro">
+    <ion-chip>
+    <ion-label color="Success" >Sensor Analogico</ion-label>
+    <ion-icon name="logo-ionitron" color="blue"></ion-icon>
+  </ion-chip>
+
+  </ion-item>
+  
+  
+
+  <ion-item detail routerLink="/ventilation">
+    <ion-chip>
+    <ion-label  color="Success" >Sensor Digital</ion-label>
+    <ion-icon name="logo-gitlab" color="blue"></ion-icon>
+  </ion-chip>
+  </ion-item>
+
+  <ion-item detail routerLink="/slide">
+    <ion-chip>
+    <ion-label  color="Success" >Trasmicion Segura de Datos</ion-label>
+    <ion-icon name="logo-electron" color="blue"></ion-icon>
+  </ion-chip>
+  </ion-item>
+
+
+  <ion-item href="https://www.google.com/maps/@21.8590508,-102.2891427,15z">
+    <ion-thumbnail slot="start">
+      <img src="https://media.istockphoto.com/vectors/internet-of-things-logo-vector-template-gear-in-iot-concept-eps-10-vector-id1129783516">
+    </ion-thumbnail>
+    <ion-label>
+      <h3>Soluciones Integradas de IOT</h3>
+     
+    </ion-label>
+    <ion-icon name="business-outline" slot="end"></ion-icon>
+  </ion-item>
+  
+</ion-list>
+
+
+
+
+
+
+
+
+<ion-fab vertical="center" horizontal="center" slot="fixed">
+  <ion-fab-button>
+    <ion-icon name="qr-code-outline"></ion-icon>
+  </ion-fab-button>
+  <ion-fab-list side="top">
+    <ion-fab-button><ion-icon name="logo-vimeo"></ion-icon></ion-fab-button>
+  </ion-fab-list>
+  <ion-fab-list side="bottom">
+    <ion-fab-button><ion-icon name="logo-facebook"></ion-icon></ion-fab-button>
+  </ion-fab-list>
+  <ion-fab-list side="start">
+    <ion-fab-button><ion-icon name="logo-instagram"></ion-icon></ion-fab-button>
+  </ion-fab-list>
+  <ion-fab-list side="end">
+    <ion-fab-button><ion-icon name="logo-twitter"></ion-icon></ion-fab-button>
+  </ion-fab-list>
+</ion-fab>
+
+
+</ion-content>
