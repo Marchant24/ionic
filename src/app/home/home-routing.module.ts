@@ -8,10 +8,7 @@ const routes: Routes = [
     path: '',
     component: HomePage
   },
-  {
-    path: 'tab-inicial',
-    loadChildren: () => import('./tab-inicial/tab-inicial.module').then( m => m.TabInicialPageModule)
-  }
+ 
 ];
 
 @NgModule({

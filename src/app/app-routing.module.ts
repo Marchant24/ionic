@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
-
 const routes: Routes = [
   
   {
@@ -10,7 +9,6 @@ const routes: Routes = [
   },{path: '',
 redirectTo: 'home',
 pathMatch: 'full'},
-  
   {
     path: 'ilumination',
     loadChildren: () => import('./ilumination/ilumination.module').then( m => m.IluminationPageModule)
@@ -46,10 +44,6 @@ pathMatch: 'full'},
   {
     path: 'educacion',
     loadChildren: () => import('./educacion/educacion.module').then( m => m.EducacionPageModule)
-  },
-  {
-    path: 'tab-inicial',
-    loadChildren: () => import('./home/tab-inicial/tab-inicial.module').then( m => m.TabInicialPageModule)
   },
  
 ];
