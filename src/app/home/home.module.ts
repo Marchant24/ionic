@@ -7,6 +7,8 @@ import { IonicModule } from '@ionic/angular';
 import { HomePageRoutingModule } from './home-routing.module';
 
 import { HomePage } from './home.page';
+//importacion nueva de bluetooth
+
 
 @NgModule({
   imports: [
@@ -17,5 +19,6 @@ import { HomePage } from './home.page';
     HomePageRoutingModule
   ],
   declarations: [HomePage]
+ 
 })
 export class HomePageModule {}
