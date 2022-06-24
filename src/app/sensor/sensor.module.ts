@@ -4,19 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { SlidePageRoutingModule } from './slide-routing.module';
+import { SensorPageRoutingModule } from './sensor-routing.module';
 
-import { SlidePage } from './slide.page';
+import { SensorPage } from './sensor.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    SlidePageRoutingModule
+    SensorPageRoutingModule
   ],
-  declarations: [SlidePage]
+  declarations: [SensorPage]
 })
-export class SlidePageModule {}
-
-
+export class SensorPageModule {}

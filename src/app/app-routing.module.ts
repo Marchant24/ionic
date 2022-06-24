@@ -44,7 +44,11 @@ pathMatch: 'full'},
   {
     path: 'educacion',
     loadChildren: () => import('./educacion/educacion.module').then( m => m.EducacionPageModule)
+  },  {
+    path: 'sensor',
+    loadChildren: () => import('./sensor/sensor.module').then( m => m.SensorPageModule)
   },
+
  
 ];
 @NgModule({
